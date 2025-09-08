@@ -63,7 +63,7 @@ public class Main {
     // booleanos
     int edadUsuario = 20;
     final int EDAD_PERMITIDA = 18;
-    boolean esMayorEdad = edadUsuario >= EDAD_PERMITIDA;
+    boolean esMayorEdad = edadUsuario >= EDAD_PERMITIDA; // = >
     System.out.println(esMayorEdad);
 
   }
