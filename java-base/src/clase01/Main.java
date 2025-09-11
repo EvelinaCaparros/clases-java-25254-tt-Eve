@@ -2,7 +2,6 @@ package clase01;
 
 public class Main {
 
-
   public static void main(String[] args) {
     // todo lo que sigue de esto es codigo a ejecutar
     // convencion de nombres:
@@ -46,6 +45,8 @@ public class Main {
     // texto
     String mensaje = "es la comisión 25254!#$$%$%/%&()🎓🚀🐯⏰🛠️💾💬 'alskjd' \"mensaje\" ";
     String nuevoMensaje = mensaje + " - " + restoNumero;
+    // 2+2 = 4
+    // "2" + "2" = "22"
     System.out.println(nuevoMensaje);
     char caracter = 'e';
 
