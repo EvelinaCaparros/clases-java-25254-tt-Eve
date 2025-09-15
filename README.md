@@ -1,5 +1,8 @@
 # Código del curso Java Backend - Talent Tech
 
+## Practicas
+Revisa la carpeta de prácticas!
+
 ## Estructura de carpetas
 ```
 java-base/
