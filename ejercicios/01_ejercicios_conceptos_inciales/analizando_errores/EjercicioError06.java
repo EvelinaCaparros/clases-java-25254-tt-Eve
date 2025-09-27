@@ -18,7 +18,7 @@ public class EjercicioError06 {
         }
         System.out.print("¿Qué número quieres buscar? ");
         int buscar = scanner.nextInt();
-        if (numeros == buscar) { // Error: comparación incorrecta
+        if (numeros.contains(buscar)) { // Error: comparación incorrecta
             System.out.println("El número " + buscar + " está en la lista.");
         } else {
             System.out.println("El número " + buscar + " no está en la lista.");

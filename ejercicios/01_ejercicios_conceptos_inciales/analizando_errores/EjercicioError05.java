@@ -12,7 +12,7 @@ public class EjercicioError05 {
         ArrayList<String> nombres = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             System.out.print("Ingrese un nombre: ");
-            String nombre = scanner.nextInt(); // Error: debería ser nextLine()
+            String nombre = scanner.nextLine(); // Error: debería ser nextLine()
             nombres.add(nombre);
         }
         System.out.println(nombres);

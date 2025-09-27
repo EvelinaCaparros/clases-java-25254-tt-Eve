@@ -9,7 +9,7 @@ public class EjercicioError01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese su nombre: ");
-        String nombre = scanner.nextInt(); // Error: debería ser nextLine()
+        String nombre = scanner.nextLine(); // Error: debería ser nextLine()
         System.out.print("Ingrese su edad: ");
         int edad = scanner.nextInt();
         System.out.println("Hola " + nombre + ", tienes " + edad + " años.");
