@@ -23,11 +23,15 @@ public class Ejercicio01_hecho {
             System.out.println("Ingrese una edad válida (entre 1 y 99): ");
             edad = scanner.nextInt();
         }
-        if (edad == 1){
-            System.out.println("Hola " + nombre + ", tenes " + edad + " año!");
-        } else {
-            System.out.println("Hola " + nombre + ", tenes " + edad + " años!");
-        }
+        System.out.println(generarSaludo(nombre, edad));
         scanner.close();
+    }
+
+    public static String generarSaludo(String nombre, int edad) {
+        if (edad == 1) {
+            return "Hola " + nombre + ", tenes " + edad + " año!";
+        } else {
+            return "Hola " + nombre + ", tenes " + edad + " años!";
+        }
     }
 }
